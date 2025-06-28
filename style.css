@@ -1,0 +1,140 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left {
+    position: absolute;
+    left: 6rem;
+    top: 3rem;
+    display: inline-block;
+}
+
+.left img {
+    width: 38rem;
+}
+
+.element.style {
+    line-height: 0px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(103, 58, 193);
+}
+
+.mid {
+    width: 62%;
+    margin: 6rem auto;
+    display: block;
+}
+
+.right {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 6rem;
+    padding: 1rem 5rem;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(103, 58, 193);
+}
+
+.btn {
+    margin: 9rem 2rem;
+    background-color: rgb(103, 58, 193);
+    color: white;
+    padding: 1rem 2rem;
+    border: 2px black;
+    border-radius: 2rem;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(43, 13, 104);
+}
+
+.form {
+    border: 0.5rem solid white;
+    margin: 114rem 35rem;
+    padding: 5rem 0px;
+    width: 36%;
+    border-radius: 3rem;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 74rem;
+    padding: 1rem;
+    border: 0.5rem solid black;
+    margin: 4rem auto;
+    font-size: 4rem;
+    border-radius: 3rem;
+}
+
+.form button {
+    display: block;
+    width: 49%;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 4rem
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 10rem;
+    line-height: 8rem;
+}
+
+.quote {
+    position: absolute;
+    left: 49rem;
+    top: 66rem;
+}
+
+.quote div {
+    text-align: left;
+    font-size: 20rem;
+    line-height: 20rem;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    width: 98.75%;
+}
+
+.footer div {
+    font-size: 6rem;
+}
+
+.footer div a {
+    color: rgb(103, 58, 193);
+}
